@@ -1,0 +1,31 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/home/harri/programming/linux-sources/util-linux-nlharri-github/experimenting-util-linux-2.34/.libs/**",
+                "/home/harri/programming/linux-sources/util-linux-nlharri-github/experimenting-util-linux-2.34/libmount/**",
+                "/home/harri/programming/linux-sources/util-linux-nlharri-github/experimenting-util-linux-2.34/libmount/src/**",
+                "/home/harri/programming/linux-sources/util-linux-nlharri-github/experimenting-util-linux-2.34/libblkid/**",
+                "/home/harri/programming/linux-sources/util-linux-nlharri-github/experimenting-util-linux-2.34/libblkid/src/**",
+                "/home/harri/programming/linux-sources/util-linux-nlharri-github/experimenting-util-linux-2.34/libfdisk/**",
+                "/home/harri/programming/linux-sources/util-linux-nlharri-github/experimenting-util-linux-2.34/libfdisk/src/**",
+                "/home/harri/programming/linux-sources/util-linux-nlharri-github/experimenting-util-linux-2.34/libsmartcols/**",
+                "/home/harri/programming/linux-sources/util-linux-nlharri-github/experimenting-util-linux-2.34/libsmartcols/src/**",
+                "/home/harri/programming/linux-sources/util-linux-nlharri-github/experimenting-util-linux-2.34/libuuid/**",
+                "/home/harri/programming/linux-sources/util-linux-nlharri-github/experimenting-util-linux-2.34/libuuid/src/**",
+                "/home/harri/programming/linux-sources/util-linux-nlharri-github/experimenting-util-linux-2.34/lib/**",
+                "/home/harri/programming/linux-sources/util-linux-nlharri-github/experimenting-util-linux-2.34/misc-utils**",
+                "/home/harri/programming/linux-sources/util-linux-nlharri-github/experimenting-util-linux-2.34/**",
+                "/usr/share/gnulib/lib/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu18",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "gcc-x64"
+        }
+    ],
+    "version": 4
+}
