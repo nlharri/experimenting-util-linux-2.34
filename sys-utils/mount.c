@@ -664,6 +664,10 @@ int main(int argc, char **argv)
 	if (!cxt)
 		err(MNT_EX_SYSERR, _("libmount context allocation failed"));
 
+	// Print fields of context (ctx)
+	struct libmnt_context* mycontext = cxt;
+	printf("cxt->loopdev_fd: %s", mycontext->loopdev_fd);
+
 	mnt_context_set_tables_errcb(cxt, table_parser_errcb);
 
 	while ((c = getopt_long(argc, argv, "aBcfFhilL:Mno:O:rRsU:vVwt:T:N:",
